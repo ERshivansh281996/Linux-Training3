@@ -1,0 +1,3 @@
+#Write a Pthreads MT (multithreaded) app to spawn threads;
+#the number of threads to spawn is to be given as a command-line parameter
+#(you require a validity check on max number of threads to create based on both the resource limit RLIMIT_NPROC (use the prlimit(2) to query it) and the overall system limit)

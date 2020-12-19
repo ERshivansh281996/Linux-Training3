@@ -1,0 +1,3 @@
+#Write a Pthreads MT (multithreaded) app to copy a large file to a specified destination directory; 
+#determine the number of threads to use based on the number of CPU cores on your system (it must be dynamic, not hard-coded); 
+#have each thread copy a (calculated) portion of the source file to the destination file (test this program with file size >= 1 GB and ensure it works as advertised)
